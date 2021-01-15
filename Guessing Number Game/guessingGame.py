@@ -1,4 +1,4 @@
-#This is a Python implementation of Guessing Number Game by Simran Panda 03/15/2020
+#This is a Python implementation of Guessing Number Game by Simran Panda
 import random
 
 Round = "yes"
@@ -12,15 +12,15 @@ while Round == "yes":
         Count+=1
         print Count
         if randomNumber > Guess:
-            print("Too low")
+            print("Too Cold")
         elif randomNumber < Guess:
-            print("Too high")
+            print("Too hot")
         else:
             print("light up, light up sketchers, it took you " + str(Count) + " sketchers to guess my number" )
             Round = raw_input("Do you want to play again? ")
             if Round == "yes":
-                print("okay zoomer")
+                print("Okay, let's play!")
             else:
-                print("okay boomer")
+                print("It was fun playing!")
 
 
