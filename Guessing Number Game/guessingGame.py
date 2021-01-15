@@ -12,11 +12,11 @@ while Round == "yes":
         Count+=1
         print Count
         if randomNumber > Guess:
-            print("Too Cold")
+            print("Too Low")
         elif randomNumber < Guess:
-            print("Too hot")
+            print("Too high")
         else:
-            print("light up, light up sketchers, it took you " + str(Count) + " sketchers to guess my number" )
+            print("You guessed my number, it took you " + str(Count) + "tries to guess my number" )
             Round = raw_input("Do you want to play again? ")
             if Round == "yes":
                 print("Okay, let's play!")
